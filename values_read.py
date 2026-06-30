@@ -148,7 +148,7 @@ class ESP32FirebaseBridge:
             if self.ser:
                 self.ser.close()
             print("✅ Bridge stopped")
-
+""" This is the main method """
 def main():
     # Configuration
     SERIAL_PORT = 'COM4'  # Change to your port (Linux: /dev/ttyUSB0)
